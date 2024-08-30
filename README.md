@@ -4,7 +4,7 @@ This is a capstone project for Upskilling program from HTU (Hussain Technical Un
 #The project scenario:
 A sports channel asked TeckRocket to analyze some international football match information as a preparatory step for the FIFA World Cup Qatar 2022.
 
-#Dataset
+# Dataset
 International football results from 1872 to 2020 from Kaggle
 
 •	This dataset includes more than 40,000 results of international football matches in different tournaments.
@@ -15,16 +15,23 @@ Date, Home team, Away team, Home score, Away score, Tournament, City, Country, a
 
 # Solution design
 
-Solution components 
+Solution components:
 
-•	SQL Server 
-Create a Database and manage it.
-•	SQL Server Integration Services (SSIS)
-Extract, Transform and Load (ETL process) the data from (CSV) file into tables in the database.
-•	Power BI
-Use Power BI desktop to create reports and publish them into Power BI service.
-Use Power BI service to create an app.
-Use data gateway in Power BI service to make sure the dataset is up-to-date.
+###	SQL Server: 
+
+- Create a Database and manage it.
+
+###	SQL Server Integration Services (SSIS):
+
+- Extract, Transform and Load (ETL process) the data from (CSV) file into tables in the database.
+
+###	Power BI:
+
+- Use Power BI desktop to create reports and publish them into Power BI service.
+
+- Use Power BI service to create an app.
+
+- Use data gateway in Power BI service to make sure the dataset is up-to-date.
 
 # DataFlow 
 
